@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AP HTML LLC</title>
+    <!--Link any outside files like CSS or JS or external API CDN links-->
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <!-- <link rel="shortcut icon" href="favicon.ico" type=""image/x-icon"> -->
+    <!--<script src="../js/script.js"></script> -->
+    <!-- internal styling -->
+    <!-- <style>
+        background: ""; -->
+    <!-- </style> -->
+
+    <!--external styling-->
+    <link rel="stylesheet" href="./css/style-tutorial.css"
+  </head>
+  <body>
+    <header>
+      <!--Division of the title-->
+      <div>
+        <h1 id="primary-heading" class="heading-group">Title</h1>
+        <h2 class="heading-group">This is my subtitle</h2>
+      </div>
+      <!-- Navigation Menu -->
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#menu-item-about">About</a></li>
+          <li><a href="./html/semantic-html-example.html">Products</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!--practice for Wireframing-->
+      <section class="New-events">
+        <div class="section-title">
+          <h3 class="section-title-text">News Events</h3>
+        </div>
+        <div class="media-wrapper">
+          <div class="news-container">
+            <div class="news-media">
+              <img src="./assets/img/detroit.jpg" alt="" class="news-images">
+            </div>
+            <div class="news-text">
+              <a href="http://www.oakland.edu"><h3>News Title Here</h3></a>
+            </div> 
+          </div>
+          <div class="news-container">
+            <div class="news-container">
+            <div class="news-media">
+              <img src="./assets/img/detroit.jpg" alt="" class="news-images">
+            </div>
+            <div class="news-text">
+              <a href="http://www.oakland.edu"><h3>News Title Here</h3></a>
+            </div> 
+          </div>
+          <div class="news-container">
+            <div class="news-container">
+            <div class="news-media">
+              <img src="./assets/img/detroit.jpg" alt="" class="news-images">
+            </div>
+            <div class="news-text">
+              <a href="http://www.oakland.edu"><h3>News Title Here</h3></a>
+            </div> 
+          </div>
+          <div class="news-container">
+            <div class="news-container">
+            <div class="news-media">
+              <img src="./assets/img/detroit.jpg" alt="" class="news-images">
+            </div>
+            <div class="news-text">
+              <a href="http://www.oakland.edu"><h3>News Title Here</h3></a>
+            </div> 
+          </div>
+        </div>
+      </section>
+
+      <!--Division for Overview PARA-->
+      <div>
+        <h3>Overview</h3>
+        <span
+          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ullam,
+          recusandae quo minima nihil excepturi veritatis in quaerat quasi
+          dignissimos impedit, et deleniti obcaecati ea, beatae laborum
+          repellendus qui velit!
+        </span>
+        <span> this is a 2nd statement inside inline tag</span>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quis
+          unde rerum. Dolorem veritatis deleniti distinctio ipsa, optio atque,
+          ipsam quis reiciendis incidunt debitis eum molestiae doloremque,
+          voluptas maiores quia.
+        </p>
+      </div>
+
+      <!--division for significance paragraph-->
+      <div class="container-element">
+        <h3>Significance</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ex
+          consequatur optio assumenda nesciunt incidunt eveniet, doloremque eum
+          officia aperiam, in aliquid tempora corrupti accusamus. Voluptatibus
+          modi ullam soluta cumque?
+        </p>
+      </div>
+
+      <!--image embedding, hyperreferencing, lists, multimedia files, table data-->
+      <!--html attributes - id, class, src, href, alt-->
+      <!--insert an img in the html document-->
+      <div>
+        <!--self closing html tags-->
+        <img
+          src="./assets/img/detroit.jpg"
+          alt="this is an image of..."
+          width="200px"
+          height="100px"
+        />
+        <hr />
+        <br />
+        <!-- html lists 1. orderedlist and unordered list-->
+        <!--ordered list-->
+        <ol>
+          <li>AP1</li>
+          <li>AP2</li>
+          <li>AP3</li>
+          <li>AP4</li>
+        </ol>
+
+        <br />
+        <hr />
+        <!--About memu item should navigate to this unordered list-->
+        <ul id="menu-item-about">
+          <li>item 2</li>
+          <li>item 3</li>
+          <li>item 4</li>
+          <li>item 5</li>
+        </ul>
+
+        <hr />
+        <br />
+        <!--hypereferencing using anchor-->
+        <a href="http://www.oakland.edu">Click here</a>
+        <span>to visit Oakland University Home page</span>
+        <a href="andrewjjspy@oakland.edu">Fake Email for Student</a>
+      </div>
+
+      <hr />
+      <br />
+
+      <!-- multimedia files audio and video-->
+      <audio src="./assets/audio/twitter-notification-sound.mp3" controls>
+        <!-- <source src=""type> </source> -->
+        Your browser doesn't support this audio type
+      </audio>
+
+      <video src="./assets/video/" controls>
+        Your browser doesnt support this audio type
+      </video>
+
+      <br />
+      <hr />
+
+      <!-- To create tabular content -->
+      <table border="1">
+        <thead>
+          <tr>
+            <th>First</th>
+            <th>Last</th>
+            <th>GPA</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Andre</td>
+            <td>Pao</td>
+            <td>3.55</td>
+          </tr>
+          <tr>
+            <td>John</td>
+            <td>Wick</td>
+            <td>3.89</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>GPA Avg</td>
+            <td></td>
+            <td>3.84</td>
+          </tr>
+        </tfoot>
+      </table>
+      <!-- IMPORTANT section -->
+      <!-- getting input from users -->
+      <!-- html forms > input fields -->
+
+      <!-- form elem -->
+      <form action="server-url.php" method="get">
+        <!-- fields to take input -->
+        <label for="user-email">Enter your Email:</label>
+        <input
+          placeholder="abc@gmail.com"
+          type="email"
+          name="user-email"
+          id="user-email"
+        />
+        <br />
+        <label for="user-passowrd">Enter your Password:</label>
+        <input type="password" name="user-password" id="user-password" />
+        <br />
+        <label for="test-checbox"> Coffee </label>
+        <input type="checkbox" name="test-checkbox" id="test-checkbox" />
+        <br />
+        <button type="submit">submit</button>
+        <!-- <buttont type="reset"></buttont> -->
+      </form>
+
+      <section class="input-tutorials">
+        <!-- tutorial for radio btns -->
+        <!-- present multiple option select only one-->
+        <!-- the name attributes for all radio options are same, value and id is different-->
+        <p>Select your favoite pet...</p>
+        <input type="radio" name="" id="cats" value="cats" />
+        <label for="cats">Cats</label> <br />
+        <input type="radio" name="" id="dogs" value="dog" />
+        <label for="dog">Dogs</label> <br />
+        <input type="radio" name="" id="fish" value="fish" />
+        <label for="fish">Fish</label> <br />
+        <!-- present multiple options, user can select multiple options. The NAME attribute is the most important -->
+        <p>Select more than one programming languages</p>
+        <input type="checkbox" name="python" id="python" value="python" />
+        <label for="python">Python</label> <br />
+        <input type="checkbox" name="java" id="java" value="java" />
+        <label for="Java">Java</label> <br />
+        <input type="checkbox" name="JS" id="JS" value="Js" />
+        <label for="JS">JS</label> <br />
+
+        <div>THIS IS FOR SPACING</div>
+        <hr />
+        <br />
+        <!-- The select from multiple option input type -->
+        <!-- select and option-->
+        <label for="states">Choose your midwest state</label>
+        <select name="states" id="states">
+          <option value="MI">Michigan</option>
+          <option value="IL">Illinois</option>
+          <option value="OH">Ohio</option>
+        </select>
+      </section>
+    </main>
+    <footer>Test Content Here</footer>
+  </body>
+</html>
